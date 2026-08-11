@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "atlas-studio",
+  "description": "Development marketplace for the prd-architecture-studio plugin, sourced from the Atlas git repository.",
+  "owner": { "name": "chiheb" },
+  "plugins": [
+    {
+      "name": "prd-architecture-studio",
+      "description": "BMAD-inspired PRD + Architecture studio.",
+      "version": "0.7.0",
+      "source": "./prd-architecture-studio"
+    }
+  ]
+}
